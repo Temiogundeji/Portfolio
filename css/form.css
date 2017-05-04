@@ -1,0 +1,37 @@
+/**Form Styles**/
+body{
+	background:#00264d;
+}
+.container form{
+	background:#ccc;
+	width:350px;
+	padding:70px 20px 20px 20px;
+	margin:100px;
+	margin-left:350px;
+	border-radius:10px;
+	box-shadow:5px black;
+	display:block;
+	height:300px;
+}
+input[type=email],input[type=password]{
+	margin-left:50px;
+	margin-bottom:20px;
+	width:200px;
+	font-size:16px;
+}
+input[type=submit]{
+	background:#ff0000;
+	font-size:16px;
+}
+.col-sm-2 .control-label {
+	font-size:14px;
+	font-family:verdana;
+	color:#777;
+}
+.container .reg_form{
+	height:500px;
+	margin-left:55px;
+}
+.form-footer{
+	background:#ccc;
+}

@@ -1,0 +1,103 @@
+<! DOCTYPE HTML>
+<html>
+  <head>
+    <title>Portfolio Webpage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/Style.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+       <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Teemat Solutions</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" id="about">
+      <div class="jumbotron">
+        <h2>Teemat Solutions</h1>
+        <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+     </div>
+    </div>
+    <section class="container" id="portfolio">
+      <div class="row">
+        <h2 class="text-center"><hr>Portfolio</h2>
+          <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="img/note.jpg" alt="Our First Project">
+                  <p class="text-center"><strong>Premium</strong></p>
+                  <p class="text-center">This is one of our premium projects</p>
+              </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="img/planning.jpeg" alt="Our Second Project">
+                  <p class="text-center"><strong>Non-Profit</strong></p>
+                  <p class="text-center">This is one of our non-profit projects</p>
+              </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="img/programming.jpeg" alt="Our Third Project">
+                  <p class="text-center"><strong>Community</strong></p>
+                  <p class="text-center">This is one of our community projects</p>
+              </div>
+          </div>
+      </div>
+    </section>
+    
+    <div class="container" id="contact">
+  <h2 class="text-center">Contact</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Ibadan,Oyo State Nigeria.</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +23478668399</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> yusuffogundeji@gmail.com</p> 
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Designed by Teemat <a href="http://teemat.com" title="Teemat Solutions">www.teemat.com</a></p> 
+</footer>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/pagescroll.js"></script>
+  </body>
+</html>
